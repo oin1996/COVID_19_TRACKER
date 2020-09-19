@@ -1,6 +1,13 @@
 .container {
    margin-top:40px !important;
-   width: 12%;
+   width: 20%;
 }
+
+
+@media only screen and (max-width:561px) {
+   .container {
+     width: 60%;
+   }
+ }
 
   

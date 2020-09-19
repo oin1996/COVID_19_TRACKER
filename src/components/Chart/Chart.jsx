@@ -67,7 +67,7 @@ import {Line , Bar} from 'react-chartjs-2';
 
    
     return(
-        <div style={{display:'flex',justifyContent:'center',width:'55%',marginTop:'5px',marginBottom:'30px'}}>
+        <div style={{display:'flex',justifyContent:'center',width:'73%',hemarginTop:'5px',marginBottom:'30px'}}>
             {country ? barChart:lineChart}
         </div>
     )

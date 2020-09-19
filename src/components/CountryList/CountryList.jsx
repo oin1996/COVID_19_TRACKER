@@ -12,7 +12,6 @@ const CountryList = ({handleCountryChange})=>{
             setFetchedCountries(await fetchCountries())
         }
         fetchAPI()
-        // console.log('countries',fetchedCountries)
     });
     
 
